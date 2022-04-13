@@ -33,10 +33,10 @@ app.post("/", function(req, res){
     ]
   };
   var jsonData = JSON.stringify(data);
-  const url = "https://us14.api.mailchimp.com/3.0/lists/a3b0364cc3";
+  const url = "https://us14.api.mailchimp.com/3.0/lists/#########";
   const options = {
      method: "POST",
-     auth: "bmiche3:e742a0ca15baf821096085670e35aae5-us14"
+     auth: "bmiche3:####################"
   }
 
 const request = https.request(url, options, function(response){
@@ -63,7 +63,7 @@ app.listen(process.env.PORT || 3000, function(){
 });
 
 
-//a3b0364cc3
 
-//api key
-//e742a0ca15baf821096085670e35aae5-us14
+
+
+
